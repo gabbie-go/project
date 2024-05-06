@@ -14,7 +14,7 @@ and also county traffic.
 
 import pandas as pd
 import streamlit as st
-import matplotlib.pyplot as plt 
+import matplotlib as plt 
 
 filepath = '/Users/gabbie/Desktop/spyder/python_project/Georgia_Bridges_10000_sample.csv'
 df = pd.read_csv(filepath)
@@ -585,4 +585,7 @@ counts()
 #Extra Sources
 #https://matplotlib.org/stable/users/explain/quick_start.html#a-simple-example
 #https://docs.streamlit.io/develop
+
+
+
    
